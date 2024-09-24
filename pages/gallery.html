@@ -1,0 +1,80 @@
+
+
+
+
+
+
+<div class="mx-auto py-8 md:py-12">
+    <div class="  text-center ">
+        <button class="mb-4 text-orange-500 font-semibold bg-gray-200 rounded-full px-2 py-1">Check Our Collection</button> 
+
+       <h1 class="font-bold mb-4 text-2xl md:text-4xl ">Our Furniture Gallery</h1>
+       <p class="px-12 text-base mb-8 ">Explore Our Gallery of Inspiring Designs</p>
+     
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 px-4">
+        <div class="grid gap-4">
+            <div>
+                <img class="h-auto max-w-full rounded-lg modal-trigger" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg modal-trigger" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg modal-trigger" src="/src/assets/Frame_1.png" alt="">
+            </div>
+        </div>
+        <div class="grid gap-4">
+            <div>
+                <img class="h-auto max-w-full rounded-lg modal-trigger" src="/src/assets/Frame_4.png" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg modal-trigger" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg modal-trigger" src="/src/assets/Frame_4.png" alt="">
+            </div>
+        </div>
+        <div class="grid gap-4">
+            <div>
+                <img class="h-auto max-w-full rounded-lg modal-trigger" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg modal-trigger" src="/src/assets/Frame_1.png" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg modal-trigger" src="/src/assets/Frame_2.png" alt="">
+            </div>
+        </div>
+        <div class="grid gap-4"> 
+            <div>
+                <img class="h-auto max-w-full rounded-lg modal-trigger" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg modal-trigger" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg modal-trigger" src="/src/assets/Frame_3.png" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+
+      <!-- Modal pour afficher les images -->
+      <div id="modal" class="fixed inset-0 bg-black bg-opacity-75 hidden flex items-center justify-center z-50">
+        <div class="relative max-w-4xl w-full mx-auto px-4">
+          <span class="close absolute top-0 right-0 text-white text-2xl cursor-pointer p-4"></span>
+      
+          <div class="relative flex items-center justify-center">
+            <!-- click gauche -->
+            <div id="prevBtn" class="absolute inset-y-0 left-0 w-1/2 cursor-pointer"></div>
+      
+           
+            <img id="modalImg" class="w-full h-auto max-h-[80vh] max-w-[90vw] rounded-lg" src="" alt="Modal Image">
+            
+            <!-- click droit -->
+            <div id="nextBtn" class="absolute inset-y-0 right-0 w-1/2 cursor-pointer"></div>
+          </div>
+        </div>
+      </div>
+
